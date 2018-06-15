@@ -1,0 +1,15 @@
+{
+	"name":"Peye",
+	"component":"grip",
+	"requirements": {
+		"credits":5000,
+		"Iradite":20,
+		"fish scales":30,
+		"Alloy Plate":850,
+		"Pyrotic Alloy":60,
+		"Peye Blueprint":1
+	},
+	"damage":-4,
+	"speed":1,
+	"type":"onehand"
+}

@@ -17,3 +17,4 @@
 	"puncture":.25,
 	"slash":.65,
 	"type":["weeb","staff"]
+}

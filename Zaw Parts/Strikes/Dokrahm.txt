@@ -17,3 +17,4 @@
 	"puncture":.35,
 	"slash":.5,
 	"type":["scythe","heavy blade"]
+}

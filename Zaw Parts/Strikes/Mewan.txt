@@ -17,3 +17,4 @@
 	"puncture":.35,
 	"slash":.4,
 	"type":["sword","polearm"]
+}

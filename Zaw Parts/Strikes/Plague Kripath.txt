@@ -18,3 +18,4 @@
 	"slash":.21,
 	"viral":.29,
 	"type":["rapier","polearm"]
+}

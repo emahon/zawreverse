@@ -17,3 +17,4 @@
 	"puncture":0,
 	"slash":.3,
 	"type":["machete","polearm"]
+}

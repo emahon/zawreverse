@@ -15,3 +15,4 @@
 	"speed":.083'
 	"crit":0,
 	"status":0
+}

@@ -17,3 +17,4 @@
 	"puncture":.6,
 	"slash":.35,
 	"type":["dagger","staff"]
+}

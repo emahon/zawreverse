@@ -17,3 +17,4 @@
 	"puncture":.5,
 	"slash":.4,
 	"type":["rapier","polearm"]
+}

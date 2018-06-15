@@ -1,0 +1,15 @@
+{
+	"name":"Kroostra",
+	"component":"grip",
+	"requirements": {
+		"credits":5000,
+		"Breath of the Eidolon":1,
+		"fish scales":85,
+		"Circuits":500,
+		"Fersteel Alloy":20,
+		"Kroostra Blueprint":1
+	},
+	"damage":14,
+	"speed":.85,
+	"type":"twohand"
+}

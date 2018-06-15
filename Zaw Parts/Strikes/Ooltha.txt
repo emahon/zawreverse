@@ -17,3 +17,4 @@
 	"puncture":.4,
 	"slash":.5,
 	"type":["sword","staff"]
+}

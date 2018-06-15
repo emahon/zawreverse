@@ -1,0 +1,15 @@
+{
+	"name":"Plague Akwin",
+	"component":"grip",
+	"requirements": {
+		"credits":5000,
+		"Iradite":20,
+		"fish scales":15,
+		"Plastids":1100,
+		"Pyrotic Alloy":30,
+		"Plague Akwin Blueprint":1
+	},
+	"damage":-2,
+	"speed":.95,
+	"type":"onehand"
+}

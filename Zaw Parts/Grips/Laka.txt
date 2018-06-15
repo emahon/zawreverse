@@ -1,0 +1,15 @@
+{
+	"name":"Laka",
+	"component":"grip",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":20,
+		"fish scales":55,
+		"Cryotic":750,
+		"Coprite Alloy":60,
+		"Laka Blueprint":1
+	},
+	"damage":0,
+	"speed":.917,
+	"type":"onehand"
+}

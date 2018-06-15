@@ -17,3 +17,4 @@
 	"puncture":.05,
 	"slash":.35,
 	"type":["machete","hammer"]
+}

@@ -1,0 +1,15 @@
+{
+	"name":"Shtung",
+	"component":"grip",
+	"requirements": {
+		"credits":5000,
+		"Maprico":5,
+		"fish scales":70,
+		"Rubedo":600,
+		"fersteel Alloy":40,
+		"Jayap Blueprint":1
+	},
+	"damage":0,
+	"speed":.917,
+	"type":"twohand"
+}

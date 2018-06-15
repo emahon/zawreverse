@@ -18,3 +18,4 @@
 	"slash":.33,
 	"viral":.25,
 	"type":["scythe","staff"]
+}
