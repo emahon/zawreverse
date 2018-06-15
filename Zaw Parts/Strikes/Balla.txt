@@ -7,9 +7,7 @@
 		"fish scales":15,
 		"Tear Azurite":10,
 		"Pyrotic Alloy":60,
-		"Balla Blueprint":1,
-		"Ostron Standing":1000,
-		"minostrank":"Neutral"
+		"Balla Blueprint":1
 	},
 	"damage":68,
 	"speed":.083,
@@ -19,4 +17,3 @@
 	"puncture":.6,
 	"slash":.35,
 	"type":["dagger","staff"]
-	

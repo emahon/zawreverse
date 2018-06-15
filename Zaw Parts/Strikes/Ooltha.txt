@@ -1,0 +1,19 @@
+{
+	"name":"Ooltha",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Iradite":20,
+		"fish scales":25,
+		"Tear Azurite":10,
+		"Pyrotic Alloy":60,
+		"Ooltha Blueprint":1
+	},
+	"damage":72,
+	"speed":0,
+	"crit":.18,
+	"status":.18,
+	"impact":.1,
+	"puncture":.4,
+	"slash":.5,
+	"type":["sword","staff"]

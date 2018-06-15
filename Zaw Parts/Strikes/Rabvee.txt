@@ -1,0 +1,19 @@
+{
+	"name":"Rabvee",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Grokdrul":35,
+		"Fish Scales":50,
+		"Esher Devar":10,
+		"Fersteel Alloy":20,
+		"Rabvee Blueprint":1
+	},
+	"damage":86,
+	"speed":-.067,
+	"crit":.18,
+	"status":.18,
+	"impact":.6,
+	"puncture":.05,
+	"slash":.35,
+	"type":["machete","hammer"]

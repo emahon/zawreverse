@@ -1,0 +1,19 @@
+{
+	"name":"Cyath",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Breath of the Eidolon":1,
+		"Fish Scales":55,
+		"Marquise Veridos":6,
+		"Fersteel Alloy":20,
+		"Cyath Blueprint":1
+	},
+	"damage":72,
+	"speed":0,
+	"crit":.18,
+	"status":.18,
+	"impact":.2,
+	"puncture":.05,
+	"slash":.75,
+	"type":["machete","polearm"]

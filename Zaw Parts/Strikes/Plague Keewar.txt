@@ -1,0 +1,20 @@
+{
+	"name":"Plague Keewar",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Nano Spores":1600,
+		"Plastids":700,
+		"Esher Devar":10,
+		"Coprite Alloy":60,
+		"Plague Keewar Blueprint":1
+	},
+	"damage":79,
+	"speed":-.033,
+	"crit":.18,
+	"status":.22,
+	"impact":.28,
+	"puncture":.14,
+	"slash":.33,
+	"viral":.25,
+	"type":["scythe","staff"]

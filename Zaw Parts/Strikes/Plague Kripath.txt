@@ -1,0 +1,20 @@
+{
+	"name":"Plague Kripath",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Nano Spores":1600,
+		"Plastids":700,
+		"Tear Azurite":10,
+		"Pyrotic Alloy":60,
+		"Plague Kripath Blueprint":1
+	},
+	"damage":70,
+	"speed":.033,
+	"crit":.22,
+	"status":.18,
+	"impact":.14,
+	"puncture":.36,
+	"slash":.21,
+	"viral":.29,
+	"type":["rapier","polearm"]

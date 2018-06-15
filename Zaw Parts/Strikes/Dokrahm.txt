@@ -1,0 +1,19 @@
+{
+	"name":"Dokrahm",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":25,
+		"fish scales":45,
+		"Marquise Veridos":7,
+		"Pyrotic Alloy":60,
+		"Dokrahm Blueprint":1
+	},
+	"damage":68,
+	"speed":.083,
+	"crit":.18,
+	"status":.18,
+	"impact":.15,
+	"puncture":.35,
+	"slash":.5,
+	"type":["scythe","heavy blade"]

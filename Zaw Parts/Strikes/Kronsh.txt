@@ -1,0 +1,19 @@
+{
+	"name":"Kronsh",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Grokdrul":20,
+		"fish scales":45,
+		"Esher Devar":10,
+		"Coprite Alloy":60,
+		"Kronsh Blueprint":1
+	},
+	"damage":86,
+	"speed":-.067,
+	"crit":.18,
+	"status":.18,
+	"impact":.7,
+	"puncture":0,
+	"slash":.3,
+	"type":["machete","polearm"]
