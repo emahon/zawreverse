@@ -1,0 +1,22 @@
+{
+	"name":"Balla",
+	"component":"strike",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":20,
+		"fish scales":15,
+		"Tear Azurite":10,
+		"Pyrotic Alloy":60,
+		"Balla Blueprint":1,
+		"Ostron Standing":1000,
+		"minostrank":"Neutral"
+	},
+	"damage":68,
+	"speed":.083,
+	"crit":.18,
+	"status":.18,
+	"impact":.05,
+	"puncture":.6,
+	"slash":.35,
+	"type":["dagger","staff"]
+	

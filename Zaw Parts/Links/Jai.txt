@@ -1,0 +1,17 @@
+{
+	"name":"Jai",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":10,
+		"Crondoc Wing":2,
+		"Khut-Khut Venom Sac":5,
+		"Pyrotic Alloy":20,
+		"Jai Blueprint":1
+		"Ostron Standing":1000
+		"minostrank":"Neutral"
+	},
+	"damage":-4,
+	"speed":.083'
+	"crit":0,
+	"status":0
