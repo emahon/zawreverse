@@ -1,7 +1,4 @@
 {
-	"name":"hii'machange"
-}
-{
 	"name":"Auroxium Alloy",
 	"buildcount":20,
 	"requirements":{
@@ -192,7 +189,8 @@
 		"Nistlepod":10,
 		"Fish Oil":10,
 		"Fish Meat":20,
-		"Maprico":1
+		"Maprico":1,
+		"time":3
 	},
 	"globrequirements":{
 		"Twilight Bait Blueprint":1
@@ -215,7 +213,8 @@
 		"Tralok Eyes":5,
 		"Mortus Horn":5,
 		"Fish Meat":20,
-		"Goopolla Spleen":10
+		"Goopolla Spleen":10,
+		"time":6
 	},
 	"globrequirements":{
 		"Murkray Bait Blueprint":1
@@ -238,7 +237,8 @@
 		"Maprico":5,
 		"Sharrac Teeth":5,
 		"Fish Meat":20,
-		"Karkina Antenna":10
+		"Karkina Antenna":10,
+		"time":6
 	},
 	"globrequirements":{
 		"Norg Bait Blueprint":1
@@ -261,7 +261,8 @@
 		"Maprico":5,
 		"Goopolla Spleen":10,
 		"Fish Meat":20,
-		"Murkray Liver":5
+		"Murkray Liver":5'
+		"time":6
 	},
 	"globrequirements":{
 		"Cuthol Bait Blueprint":1
@@ -284,7 +285,8 @@
 		"Maprico":5,
 		"Cuthol Tendrils":5,
 		"Fish Meat":10,
-		"Norg Brain":5
+		"Norg Brain":5,
+		"time":11
 	},
 	"globrequirements":{
 		"Glappid Bait Blueprint":1
