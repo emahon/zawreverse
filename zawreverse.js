@@ -27,28 +27,57 @@ $( document ).ready(function() {
     comCritChanceRange = document.getElementById("comCritChanceRange");
     comCritChanceBox = document.getElementById("comCritChanceBox");
 
-    //link
-    /*
-    for (i = 0; i < rangeElements.length; i++) {
-        rangeElements[i].addEventListener('input',function(e) {
-            boxElements[i].value = e.target.value;
-        });
-        boxElements[i].addEventListener('input',function(e) {
-            rangeElements[i].value = e.target.value;
-        });
+    //what elements to send to server
+    toCheck = {
+        //'weapType':false,
+        'comDamage':false,
+        'comAtkSpd':false,
+        'comCritChance':false,
+        'comStatChance':false,
+    };
+
+    //function to build stuff to send to server
+    function buildQuery() {
+        query = {"headers": "Access-Control-Allow-Origin"};
+        //https://stackoverflow.com/questions/684672/how-do-i-loop-through-or-enumerate-a-javascript-object#684692
+        for (key in toCheck) {
+            if (toCheck.hasOwnProperty(key)) {
+                if (toCheck[key]) {
+                    query[key] = document.getElementById(key+"Range").value;
+                }
+            }
+        }
+        return query;
     }
-    */
+
+    //function to process list of zaws
+    function displayZaws(data) {
+        combs = data.split("', '");
+        outstr = ""
+        for (i in combs) {
+            outstr = outstr + combs[i] + "<br>";
+        }
+        $( ".right" ).html(outstr);
+    }
+
+    //link
     comDamageRange.addEventListener('input', function(e) {
         comDamageBox.value = e.target.value;
-        $.post(url,{"comDamage":e.target.value}, function(data) {
-            console.log("Sent");
-        });
+        toCheck['comDamage'] = true;
+        query = buildQuery();
+        $.post(url,query, displayZaws);
     });
     comDamageBox.addEventListener('input',function(e) {
         comDamageRange.value = e.target.value;
+        toCheck['comDamage'] = true;
+        query = buildQuery();
+        $.post(url,query, displayZaws);
     });
     comAtkSpdRange.addEventListener('input', function(e) {
         comAtkSpdBox.value = e.target.value;
+        toCheck['comAtkSpd'] = true;
+        query = buildQuery();
+        $.post(url, query, displayZaws);
     });
     comAtkSpdBox.addEventListener('input', function(e) {
         comAtkSpdRange.value = e.target.value;
@@ -69,8 +98,5 @@ $( document ).ready(function() {
 
     //display possible combinations in right
     console.log('hi');
-    $.get(url, {"headers": "Access-Control-Allow-Origin"}, function(data) {
-        console.log(data);
-        $( ".right" ).prepend(data);
-    });
+
 });

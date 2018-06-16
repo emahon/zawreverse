@@ -6,4 +6,7 @@
 .right {
     position:absolute;
     left: 50%;
+    width: 50%;
+    height: 50%;
+    overflow-y: auto;
 }
