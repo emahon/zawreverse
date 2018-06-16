@@ -62,6 +62,232 @@
 	}
 }
 {
+	"name":"Esher Devar",
+	"buildcount":10,
+	"requirements":{
+		"credits":1000,
+		"Devar":10,
+		"time":1
+	},
+	"globrequirements":{
+		"Esher Devar Blueprint":1
+	}
+}
+{
+	"name":"Esher Devar Blueprint",
+	"requirements":{
+		"Ostron Standing":5000,
+		"Ostron Rank":"Offworlder"
+	}
+}
+{
+	"name":"Marquise Veridos",
+	"buildcount":10,
+	"requirements":{
+		"credits":2500,
+		"Veridos":10,
+		"time":1
+	},
+	"globrequirements":{
+		"Marquise Veridos Blueprint":1
+	}
+}
+{
+	"name":"Marquise Veridos Blueprint",
+	"requirements":{
+		"Ostron Standing":10000,
+		"Ostron Rank":"Visitor"
+	}
+}
+{
+	"name":"Mawfish",
+	"products":{
+		"Fish Meat":3,
+		"Fish Scales":1,
+		"MawFish Bone":1,
+		"Fish Oil":1
+	}
+}
+{
+	"name":"Charc Eel",
+	"products":{
+		"Fish Meat":3,
+		"Fish Scales":2,
+		"Charc Electroplax":1,
+		"Fish Oil":1
+	}
+}
+{
+	"name":"Khut-Khut",
+	"products":{
+		"Fish Meat":2,
+		"Fish Scales":1,
+		"Khut-Khut Venom Sac":1,
+		"Fish Oil":3
+	}
+}
+{
+	"name":"Yogwun",
+	"products":{
+		"Fish Meat":4,
+		"Fish Scales":1,
+		"Yogwun Stomach":1,
+		"Fish Oil":1
+	}
+}
+{
+	"name":"Mortus Lungfish",
+	"products":{
+		"Fish Meat":3,
+		"Fish Scales":1,
+		"Mortus Horn":1,
+		"Fish Oil":4
+	}
+}
+{
+	"name":"Goopolla",
+	"products":{
+		"Fish Meat":3,
+		"Fish Scales":2,
+		"Goopolla Spleen":1,
+		"Fish Oil":1
+	}
+}
+{
+	"name":"Tralok",
+	"products":{
+		"Fish Meat":2,
+		"Fish Scales":5,
+		"Tralok Eyes":1,
+		"Fish Oil":1
+	}
+}
+{
+	"name":"Sharrac",
+	"globrequirements":"Twilight Bait",
+	"products":{
+		"Fish Meat":2,
+		"Fish Scales":4,
+		"Sharrac Teeth":1,
+		"Fish Oil":2
+	}
+}
+{
+	"name":"Karkina",
+	"globrequirements":"Twilight Bait",
+	"products":{
+		"Fish Meat":1,
+		"Fish Scales":3,
+		"Karkina Antenna":1,
+		"Fish Oil":4
+	}
+}
+{
+	"name":"Twilight Bait",
+	"requirements":{
+		"credits":1000,
+		"Nistlepod":10,
+		"Fish Oil":10,
+		"Fish Meat":20,
+		"Maprico":1
+	},
+	"globrequirements":{
+		"Twilight Bait Blueprint":1
+	}
+}
+{
+	"name":"Murkray",
+	"globrequirements":"Murkray Bait",
+	"products":{
+		"Fish Meat":1,
+		"Fish Scales":2,
+		"Murkray Liver":1,
+		"Fish Oil":7
+	}
+}
+{
+	"name":"Murkray Bait",
+	"requirements":{
+		"credits":2000,
+		"Tralok Eyes":5,
+		"Mortus Horn":5,
+		"Fish Meat":20,
+		"Goopolla Spleen":10
+	},
+	"globrequirements":{
+		"Murkray Bait Blueprint":1
+	}
+}
+{
+	"name":"Norg",
+	"globrequirements":"Norg Bait",
+	"products":{
+		"Fish Meat":2,
+		"Fish Scales":5,
+		"Norg Brain":1,
+		"Fish Oil":3
+	}
+}
+{
+	"name":"Norg Bait",
+	"requirements":{
+		"credits":2000,
+		"Maprico":5,
+		"Sharrac Teeth":5,
+		"Fish Meat":20,
+		"Karkina Antenna":10
+	},
+	"globrequirements":{
+		"Norg Bait Blueprint":1
+	}
+}
+{
+	"name":"Cuthol",
+	"globrequirements":"Cuthol Bait",
+	"products":{
+		"Fish Meat":5,
+		"Fish Scales":3,
+		"Cuthol Tendril":1,
+		"Fish Oil":2
+	}
+}
+{
+	"name":"Cuthol Bait",
+	"requirements":{
+		"credits":2000,
+		"Maprico":5,
+		"Goopolla Spleen":10,
+		"Fish Meat":20,
+		"Murkray Liver":5
+	},
+	"globrequirements":{
+		"Cuthol Bait Blueprint":1
+	}
+}
+{
+	"name":"Glappid",
+	"globrequirements":"Glappid Bait",
+	"products":{
+		"Fish Meat":4,
+		"Fish Scales":5,
+		"Seram Bettle Shell":1,
+		"Fish Oil":3
+	}
+}
+{
+	"name":"Glappid Bait",
+	"requirements":{
+		"credits":5000,
+		"Maprico":5,
+		"Cuthol Tendrils":5,
+		"Fish Meat":10,
+		"Norg Brain":5
+	},
+	"globrequirements":{
+		"Glappid Bait Blueprint":1
+	}
+}
+{
 	"category":"rzero"
 	"name":[	
 		"Ruhang Blueprint",
@@ -88,7 +314,8 @@
 	"category":"rone",
 	"name:[
 		"Ruhang II Blueprint",
-		"Jai II Blueprint"
+		"Jai II Blueprint",
+		"Twilight Bait Blueprint"
 	],
 	"requirements":{
 		"Ostron Standing":2000,
@@ -101,7 +328,8 @@
 		"Vargeet Ruhang Blueprint",
 		"Ekwana Ruhang Blueprint",
 		"Vargeet Jai Blueprint",
-		"Ekwana Jai Blueprint"
+		"Ekwana Jai Blueprint",
+		"Murkray Bait Blueprint"
 	],
 	"requirements":{
 		"Ostron Standing":5000,
@@ -114,7 +342,8 @@
 		"Vargeet II Ruhang Blueprint",
 		"Ekwana II Ruhang Blueprint",
 		"Vargeet II Jai Blueprint",
-		"Ekwana II Jai Blueprint"
+		"Ekwana II Jai Blueprint",
+		"Norg Bait Blueprint"
 	],
 	"requirements":{
 		"Ostron Standing":7500,
@@ -127,10 +356,21 @@
 		"Vargeet Ruhang II Blueprint",
 		"Ekwana Ruhang II Blueprint",
 		"Vargeet Jai II Blueprint",
-		"Ekwana Jai II Blueprint"
+		"Ekwana Jai II Blueprint",
+		"Cuthol Bait Blueprint"
 	],
 	"requirements":{
 		"Ostron Standing":10000,
 		"Ostron Rank":"Surah"
+	}
+}
+{
+	"category":"rfive",
+	"name":[
+		"Glappid Bait Blueprint"
+	],
+	"requirements":{
+		"Ostron Standing":12500,
+		"Ostron Rank":"Kin"
 	}
 }
