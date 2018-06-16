@@ -10,12 +10,12 @@
 		"Plague Kripath Blueprint":1
 	},
 	"damage":70,
-	"speed":.033,
-	"crit":.22,
-	"status":.18,
-	"impact":.14,
-	"puncture":.36,
-	"slash":.21,
-	"viral":.29,
+	"speed":0.033,
+	"crit":0.22,
+	"status":0.18,
+	"impact":0.14,
+	"puncture":0.36,
+	"slash":0.21,
+	"viral":0.29,
 	"type":["rapier","polearm"]
 }

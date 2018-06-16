@@ -10,6 +10,6 @@
 		"Laka Blueprint":1
 	},
 	"damage":0,
-	"speed":.917,
+	"speed":0.917,
 	"type":"onehand"
 }

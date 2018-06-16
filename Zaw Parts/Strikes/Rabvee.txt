@@ -10,11 +10,11 @@
 		"Rabvee Blueprint":1
 	},
 	"damage":86,
-	"speed":-.067,
-	"crit":.18,
-	"status":.18,
-	"impact":.6,
-	"puncture":.05,
-	"slash":.35,
+	"speed":-0.067,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.6,
+	"puncture":0.05,
+	"slash":0.35,
 	"type":["machete","hammer"]
 }

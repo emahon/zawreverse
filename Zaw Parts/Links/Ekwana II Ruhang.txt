@@ -10,7 +10,7 @@
 		"Ekwana II Ruhang Blueprint":1
 	},
 	"damage":14,
-	"speed":-.067,
-	"crit":-.08,
-	"status":.14
+	"speed":-0.067,
+	"crit":-0.08,
+	"status":0.14
 }

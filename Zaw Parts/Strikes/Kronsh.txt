@@ -10,11 +10,11 @@
 		"Kronsh Blueprint":1
 	},
 	"damage":86,
-	"speed":-.067,
-	"crit":.18,
-	"status":.18,
-	"impact":.7,
+	"speed":-0.067,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.7,
 	"puncture":0,
-	"slash":.3,
+	"slash":0.3,
 	"type":["machete","polearm"]
 }

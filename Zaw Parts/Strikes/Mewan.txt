@@ -10,11 +10,11 @@
 		"Mewan Blueprint":1
 	},
 	"damage":86,
-	"speed":-.067,
-	"crit":.18,
-	"status":.18,
-	"impact":.25,
-	"puncture":.35,
-	"slash":.4,
+	"speed":-0.067,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.25,
+	"puncture":0.35,
+	"slash":0.4,
 	"type":["sword","polearm"]
 }

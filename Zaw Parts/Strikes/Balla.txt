@@ -10,11 +10,11 @@
 		"Balla Blueprint":1
 	},
 	"damage":68,
-	"speed":.083,
-	"crit":.18,
-	"status":.18,
-	"impact":.05,
-	"puncture":.6,
-	"slash":.35,
+	"speed":0.083,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.05,
+	"puncture":0.6,
+	"slash":0.35,
 	"type":["dagger","staff"]
 }

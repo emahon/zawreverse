@@ -10,6 +10,6 @@
 		"Plague Bokwin Blueprint":1
 	},
 	"damage":7,
-	"speed":.883,
+	"speed":0.883,
 	"type":"twohand"
 }

@@ -10,6 +10,6 @@
 		"Shtung Blueprint":1
 	},
 	"damage":28,
-	"speed":.783,
+	"speed":0.783,
 	"type":"twohand"
 }

@@ -10,12 +10,12 @@
 		"Plague Keewar Blueprint":1
 	},
 	"damage":79,
-	"speed":-.033,
-	"crit":.18,
-	"status":.22,
-	"impact":.28,
-	"puncture":.14,
-	"slash":.33,
-	"viral":.25,
+	"speed":-0.033,
+	"crit":0.18,
+	"status":0.22,
+	"impact":0.28,
+	"puncture":0.14,
+	"slash":0.33,
+	"viral":0.25,
 	"type":["scythe","staff"]
 }

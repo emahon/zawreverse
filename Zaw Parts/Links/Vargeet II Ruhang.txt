@@ -10,7 +10,7 @@
 		"Vargeet II Ruhang Blueprint":1
 	},
 	"damage":14,
-	"speed":-.067,
-	"crit":.14,
-	"status":-.08
+	"speed":-0.067,
+	"crit":0.14,
+	"status":-0.08
 }

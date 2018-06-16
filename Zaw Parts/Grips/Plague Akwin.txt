@@ -10,6 +10,6 @@
 		"Plague Akwin Blueprint":1
 	},
 	"damage":-2,
-	"speed":.95,
+	"speed":0.95,
 	"type":"onehand"
 }

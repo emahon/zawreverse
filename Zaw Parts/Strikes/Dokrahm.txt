@@ -10,11 +10,11 @@
 		"Dokrahm Blueprint":1
 	},
 	"damage":68,
-	"speed":.083,
-	"crit":.18,
-	"status":.18,
-	"impact":.15,
-	"puncture":.35,
-	"slash":.5,
+	"speed":0.083,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.15,
+	"puncture":0.35,
+	"slash":0.5,
 	"type":["scythe","heavy blade"]
 }

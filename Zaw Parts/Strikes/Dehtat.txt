@@ -10,11 +10,11 @@
 		"Dehtat Blueprint":1
 	},
 	"damage":68,
-	"speed":.083,
-	"crit":.18,
-	"status":.18,
-	"impact":.1,
-	"puncture":.5,
-	"slash":.4,
+	"speed":0.083,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.1,
+	"puncture":0.5,
+	"slash":0.4,
 	"type":["rapier","polearm"]
 }

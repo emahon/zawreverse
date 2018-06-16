@@ -11,10 +11,10 @@
 	},
 	"damage":72,
 	"speed":0,
-	"crit":.18,
-	"status":.18,
-	"impact":.2,
-	"puncture":.05,
-	"slash":.75,
+	"crit":0.18,
+	"status":0.18,
+	"impact":0.2,
+	"puncture":0.05,
+	"slash":0.75,
 	"type":["machete","polearm"]
 }

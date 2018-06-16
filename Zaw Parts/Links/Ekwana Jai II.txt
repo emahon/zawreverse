@@ -10,7 +10,7 @@
 		"Ekwana Jai II Blueprint":1
 	},
 	"damage":-8,
-	"speed":.167,
-	"crit":-.04,
-	"status":.07
+	"speed":0.167,
+	"crit":-0.04,
+	"status":0.07
 }

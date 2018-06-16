@@ -10,7 +10,7 @@
 		"Ruhang II Blueprint":1
 	},
 	"damage":28,
-	"speed":-.133,
+	"speed":-0.133,
 	"crit":0,
 	"status":0
 }

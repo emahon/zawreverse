@@ -11,10 +11,10 @@
 	},
 	"damage":72,
 	"speed":0,
-	"crit":.2,
-	"status":.2,
-	"impact":.1,
-	"puncture":.25,
-	"slash":.65,
+	"crit":0.2,
+	"status":0.2,
+	"impact":0.1,
+	"puncture":0.25,
+	"slash":0.65,
 	"type":["weeb","staff"]
 }

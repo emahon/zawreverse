@@ -10,6 +10,6 @@
 		"Kroostra Blueprint":1
 	},
 	"damage":14,
-	"speed":.85,
+	"speed":0.85,
 	"type":"twohand"
 }

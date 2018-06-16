@@ -1,0 +1,9 @@
+.left {
+    position:absolute;
+    left:0, right:50%;
+    width: 50%;
+}
+.right {
+    position:absolute;
+    left: 50%;
+}

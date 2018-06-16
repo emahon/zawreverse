@@ -1,6 +1,9 @@
 //https://learn.jquery.com/about-jquery/how-jquery-works/
 
 $( document ).ready(function() {
+    //server address
+    url = "http://localhost:8000";
+
     //link sliders and boxes
     //https://stackoverflow.com/questions/34360448/is-it-possible-to-link-a-range-and-a-numerical-html-input#34360480
 
@@ -37,6 +40,9 @@ $( document ).ready(function() {
     */
     comDamageRange.addEventListener('input', function(e) {
         comDamageBox.value = e.target.value;
+        $.post(url,{"comDamage":e.target.value}, function(data) {
+            console.log("Sent");
+        });
     });
     comDamageBox.addEventListener('input',function(e) {
         comDamageRange.value = e.target.value;
@@ -58,5 +64,13 @@ $( document ).ready(function() {
     });
     comCritChanceBox.addEventListener('input', function(e) {
         comCritChanceRange.value = e.target.value;
+    });
+
+
+    //display possible combinations in right
+    console.log('hi');
+    $.get(url, {"headers": "Access-Control-Allow-Origin"}, function(data) {
+        console.log(data);
+        $( ".right" ).prepend(data);
     });
 });

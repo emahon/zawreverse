@@ -10,7 +10,7 @@
 		"Jai Blueprint":1
 	},
 	"damage":-4,
-	"speed":.083,
+	"speed":0.083,
 	"crit":0,
 	"status":0
 }
