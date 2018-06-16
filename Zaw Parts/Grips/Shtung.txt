@@ -3,11 +3,11 @@
 	"component":"grip",
 	"requirements": {
 		"credits":5000,
-		"Grokdrul":20,
-		"fish scales":30,
-		"Salvage":900,
+		"Grokdrul":25,
+		"fish scales":55,
+		"Ferrite":850,
 		"Pyrotic Alloy":60,
-		"Seekalla Blueprint":1
+		"Shtung Blueprint":1
 	},
 	"damage":28,
 	"speed":.783,
