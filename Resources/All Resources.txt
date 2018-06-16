@@ -1,0 +1,136 @@
+{
+	"name":"Auroxium Alloy",
+	"buildcount":20,
+	"requirements":{
+		"credits":1000,
+		"Auron":20,
+		"Oxium":600,
+		"Morphics":5,
+		"time":2
+	},
+	"globrequirements":{
+		"Auroxium Alloy Blueprint":1
+	}
+}
+{
+	"name":"Auroxium Alloy Blueprint",
+	"requirements":{
+		"Ostron Standing":15000,
+		"Ostron Rank":"Trusted"
+	}
+}
+{
+	"name":"Fersteel Alloy",
+	"buildcount":20,
+	"requirements":{
+		"credits":1000,
+		"Ferros":20,
+		"Plastids":400,
+		"Rubedo":200,
+		"time":2
+	},
+	"globrequirements":{
+		"Fersteel Alloy Blueprint":1
+	}
+}
+{
+	"name":"Fersteel Alloy Blueprint",
+	"requirements":{
+		"Ostron Standing":10000,
+		"Ostron Rank":"Visitor"
+	}
+}
+{
+	"name":"Coprite Alloy",
+	"buildcount":20,
+	"requirements":{
+		"credits":1000,
+		"Coprun":20,
+		"Ferrite":400,
+		"Rubedo":50,
+		"time":1
+	},
+	"globrequirements":{
+		"Coprite Alloy Blueprint":1
+	}
+}
+{
+	"name":"Coprite Alloy Blueprint",
+	"requirements":{
+		"Ostron Standing":5000,
+		"Ostron Rank":"Offworlder"
+	}
+}
+{
+	"category":"rzero"
+	"name":[	
+		"Ruhang Blueprint",
+		"Jai Blueprint",
+		"Peye Blueprint",
+		"Seekalla Blueprint",
+		"Laka Blueprint",
+		"Jayap Blueprint",
+		"Kwath Blueprint",
+		"Kroostra Blueprint",
+		"Balla Blueprint",
+		"Ooltha Blueprint",
+		"Kronsh Blueprint",
+		"Dehtat Blueprint",
+		"Mewan Blueprint",
+		"Cyath Blueprint"
+	],
+	"requirements":{
+		"Ostron Standing":1000,
+		"Ostron Rank":"Neutral"
+	}
+}
+{
+	"category":"rone",
+	"name:[
+		"Ruhang II Blueprint",
+		"Jai II Blueprint"
+	],
+	"requirements":{
+		"Ostron Standing":2000,
+		"Ostron Rank":"Offworlder"
+	}
+}
+{
+	"category":"rtwo",
+	"name":[
+		"Vargeet Ruhang Blueprint",
+		"Ekwana Ruhang Blueprint",
+		"Vargeet Jai Blueprint",
+		"Ekwana Jai Blueprint"
+	],
+	"requirements":{
+		"Ostron Standing":5000,
+		"Ostron Rank":"Visitor"
+	}
+}
+{
+	"category":"rthree",
+	"name":[
+		"Vargeet II Ruhang Blueprint",
+		"Ekwana II Ruhang Blueprint",
+		"Vargeet II Jai Blueprint",
+		"Ekwana II Jai Blueprint"
+	],
+	"requirements":{
+		"Ostron Standing":7500,
+		"Ostron Rank":"Trusted"
+	}
+}
+{
+	"category":"rfour",
+	"name":[
+		"Vargeet Ruhang II Blueprint",
+		"Ekwana Ruhang II Blueprint",
+		"Vargeet Jai II Blueprint",
+		"Ekwana Jai II Blueprint"
+	],
+	"requirements":{
+		"Ostron Standing":10000,
+		"Ostron Rank":"Surah"
+	}
+}
