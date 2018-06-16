@@ -1,0 +1,16 @@
+{
+	"name":"Ruhang II",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":20,
+		"Kuaka Spinal Claw":2,
+		"Yogwun Stomach":5,
+		"Pyrotic Alloy":20,
+		"Ruhang II Blueprint":1
+	},
+	"damage":28,
+	"speed":-.133,
+	"crit":0,
+	"status":0
+}

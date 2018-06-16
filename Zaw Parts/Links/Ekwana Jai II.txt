@@ -1,0 +1,16 @@
+{
+	"name":"Ekwana Jai II",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Breath of the Eidolon":5,
+		"Crondoc Wing":5,
+		"Cetus Wisp":2,
+		"Auroxium Alloy":20,
+		"Ekwana Jai II Blueprint":1
+	},
+	"damage":-8,
+	"speed":.167,
+	"crit":-.04,
+	"status":.07
+}

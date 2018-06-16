@@ -1,0 +1,16 @@
+{
+	"name":"Vargeet II Ruhang",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Maprico":5,
+		"Kuaka Spinal Claw":5,
+		"Tralok Eyes":5,
+		"Fersteel Alloy":20,
+		"Vargeet II Ruhang Blueprint":1
+	},
+	"damage":14,
+	"speed":-.067,
+	"crit":.14,
+	"status":-.08
+}

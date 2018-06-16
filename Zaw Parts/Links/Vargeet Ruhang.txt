@@ -1,0 +1,16 @@
+{
+	"name":"Vargeet Ruhang",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":30,
+		"Kuaka Spinal Claw":5,
+		"Charc Electroplax":5,
+		"Coprite Alloy":20,
+		"Vargeet Ruhang Blueprint":1
+	},
+	"damage":14,
+	"speed":-.067,
+	"crit":.07,
+	"status":-.04
+}

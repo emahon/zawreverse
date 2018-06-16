@@ -1,0 +1,16 @@
+{
+	"name":"Ekwana II Jai",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Maprico":5,
+		"Crondoc Wing":5,
+		"Mortus Horn":5,
+		"Fersteel Alloy":20,
+		"Ekwana II Jai Blueprint":1
+	},
+	"damage":-4,
+	"speed":.083,
+	"crit":-.08,
+	"status":.14
+}

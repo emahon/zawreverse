@@ -1,0 +1,16 @@
+{
+	"name":"Vargeet Ruhang II",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Breath of the Eidolon":5,
+		"Kuaka Spinal Claw":5,
+		"Cetus Wisp":2,
+		"Auroxium Alloy":20,
+		"Vargeet Ruhang II Blueprint":1
+	},
+	"damage":28,
+	"speed":-.133,
+	"crit":.07,
+	"status":-.04
+}

@@ -1,16 +1,16 @@
 {
-	"name":"Jai",
+	"name":"Ruhang",
 	"component":"link",
 	"requirements": {
 		"credits":5000,
 		"Nistlepod":10,
-		"Crondoc Wing":2,
-		"Khut-Khut Venom Sac":5,
+		"Kuaka Spinal Claw":2,
+		"Mawfish Bones":5,
 		"Pyrotic Alloy":20,
-		"Jai Blueprint":1
+		"Ruhang Blueprint":1
 	},
-	"damage":-4,
-	"speed":.083,
+	"damage":14,
+	"speed":-.067,
 	"crit":0,
 	"status":0
 }

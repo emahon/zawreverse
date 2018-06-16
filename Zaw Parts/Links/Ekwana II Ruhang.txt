@@ -1,0 +1,16 @@
+{
+	"name":"Ekwana II Ruhang",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Maprico":5,
+		"Crondoc Wing":5,
+		"Tralok Eyes":5,
+		"Fersteel Alloy":20,
+		"Ekwana II Ruhang Blueprint":1
+	},
+	"damage":14,
+	"speed":-.067,
+	"crit":-.08,
+	"status":.14
+}

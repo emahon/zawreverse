@@ -1,0 +1,16 @@
+{
+	"name":"Ekwana Jai",
+	"component":"link",
+	"requirements": {
+		"credits":5000,
+		"Nistlepod":30,
+		"Crondoc Wing":5,
+		"Goopolla Spleen":5,
+		"Coprite Alloy":20,
+		"Ekwana Jai Blueprint":1
+	},
+	"damage":-4,
+	"speed":.083,
+	"crit":-.04,
+	"status":.07
+}

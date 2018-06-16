@@ -1,16 +1,16 @@
 {
-	"name":"Jai",
+	"name":"Jai II",
 	"component":"link",
 	"requirements": {
 		"credits":5000,
-		"Nistlepod":10,
+		"Nistlepod":20,
 		"Crondoc Wing":2,
-		"Khut-Khut Venom Sac":5,
+		"Yogwun Stomach":5,
 		"Pyrotic Alloy":20,
-		"Jai Blueprint":1
+		"Jai II Blueprint":1
 	},
-	"damage":-4,
-	"speed":.083,
+	"damage":-8,
+	"speed":.167,
 	"crit":0,
 	"status":0
 }
