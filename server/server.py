@@ -42,12 +42,12 @@ def zawreverse(environ, start_response):
             else:
                 spdFlag = False
         if (b'comCritChance' in o):
-            if (float(o[b'comCritChance'][0]) == float(row[6])):
+            if (float(o[b'comCritChance'][0]) == float(row[6])*100):
                 critFlag = True
             else:
                 critFlag = False
         if (b'comStatChance' in o):
-            if (float(o[b'comStatChance'][0]) == float(row[7])):
+            if (float(o[b'comStatChance'][0]) == float(row[7])*100):
                 statFlag = True
             else:
                 statFlag = False

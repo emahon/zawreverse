@@ -81,18 +81,33 @@ $( document ).ready(function() {
     });
     comAtkSpdBox.addEventListener('input', function(e) {
         comAtkSpdRange.value = e.target.value;
+        toCheck['comAtkSpd'] = true;
+        query = buildQuery();
+        $.post(url, query, displayZaws);
     });
     comStatChanceRange.addEventListener('input', function(e) {
         comStatChanceBox.value = e.target.value;
+        toCheck['comStatChance'] = true;
+        query = buildQuery();
+        $.post(url, query, displayZaws);
     });
     comStatChanceBox.addEventListener('input', function(e) {
         comStatChanceRange.value = e.target.value;
+        toCheck['comStatChance'] = true;
+        query = buildQuery();
+        $.post(url, query, displayZaws);
     });
     comCritChanceRange.addEventListener('input', function(e) {
         comCritChanceBox.value = e.target.value;
+        toCheck['comCritChance'] = true;
+        query = buildQuery();
+        $.post(url, query, displayZaws);
     });
     comCritChanceBox.addEventListener('input', function(e) {
         comCritChanceRange.value = e.target.value;
+        toCheck['comCritChance'] = true;
+        query = buildQuery();
+        $.post(url, query, displayZaws);
     });
 
 
