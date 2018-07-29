@@ -1,15 +1,1 @@
-{
-	"name":"Plague Bokwin",
-	"component":"grip",
-	"requirements": {
-		"credits":5000,
-		"Grokdrul":20,
-		"fish scales":15,
-		"Plastids":1100,
-		"Coprite Alloy":30,
-		"Plague Bokwin Blueprint":1
-	},
-	"damage":7,
-	"speed":0.883,
-	"type":"twohand"
-}
+{"requirements": {"Grokdrul": 20, "Plague Bokwin Blueprint": 1, "credits": 5000, "fish scales": 15, "Plastids": 1100, "Coprite Alloy": 30}, "name": "Plague Bokwin", "type": "twohand", "component": "grip", "damage": 7, "speed": 53}

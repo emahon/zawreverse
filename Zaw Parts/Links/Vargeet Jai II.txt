@@ -1,16 +1,1 @@
-{
-	"name":"Vargeet Jai II",
-	"component":"link",
-	"requirements": {
-		"credits":5000,
-		"Breath of the Eidolon":5,
-		"Kuaka Spinal Claw":5,
-		"Cetus Wisp":2,
-		"Auroxium Alloy":20,
-		"Vargeet Jai II Blueprint":1
-	},
-	"damage":-8,
-	"speed":0.167,
-	"crit":0.07,
-	"status":-0.04
-}
+{"status": -0.04, "requirements": {"Cetus Wisp": 2, "Vargeet Jai II Blueprint": 1, "Breath of the Eidolon": 5, "Kuaka Spinal Claw": 5, "credits": 5000, "Auroxium Alloy": 20}, "name": "Vargeet Jai II", "component": "link", "damage": -8, "crit": 0.07, "speed": 10}

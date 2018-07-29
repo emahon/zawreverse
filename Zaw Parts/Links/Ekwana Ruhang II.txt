@@ -1,16 +1,1 @@
-{
-	"name":"Ekwana Ruhang II",
-	"component":"link",
-	"requirements": {
-		"credits":5000,
-		"Breath of the Eidolon":5,
-		"Crondoc Wing":5,
-		"Cetus Wisp":2,
-		"Auroxium Alloy":20,
-		"Ekwana Ruhang II Blueprint":1
-	},
-	"damage":28,
-	"speed":-0.133,
-	"crit":-0.04,
-	"status":0.07
-}
+{"status": 0.07, "requirements": {"Cetus Wisp": 2, "Ekwana Ruhang II Blueprint": 1, "Crondoc Wing": 5, "Breath of the Eidolon": 5, "credits": 5000, "Auroxium Alloy": 20}, "name": "Ekwana Ruhang II", "component": "link", "damage": 28, "crit": -0.04, "speed": -8}

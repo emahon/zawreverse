@@ -1,15 +1,1 @@
-{
-	"name":"Seekalla",
-	"component":"grip",
-	"requirements": {
-		"credits":5000,
-		"Grokdrul":20,
-		"fish scales":30,
-		"Salvage":900,
-		"Pyrotic Alloy":60,
-		"Seekalla Blueprint":1
-	},
-	"damage":-4,
-	"speed":1,
-	"type":"twohand"
-}
+{"requirements": {"Grokdrul": 20, "Pyrotic Alloy": 60, "credits": 5000, "fish scales": 30, "Salvage": 900, "Seekalla Blueprint": 1}, "name": "Seekalla", "type": "twohand", "component": "grip", "damage": -4, "speed": 60}

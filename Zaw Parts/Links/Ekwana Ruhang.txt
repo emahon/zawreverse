@@ -1,16 +1,1 @@
-{
-	"name":"Ekwana Ruhang",
-	"component":"link",
-	"requirements": {
-		"credits":5000,
-		"Nistlepod":30,
-		"Crondoc Wing":5,
-		"Charc Electroplax":5,
-		"Coprite Alloy":20,
-		"Ekwana Ruhang Blueprint":1
-	},
-	"damage":14,
-	"speed":-0.067,
-	"crit":-0.04,
-	"status":0.07
-}
+{"status": 0.07, "requirements": {"Nistlepod": 30, "Crondoc Wing": 5, "Ekwana Ruhang Blueprint": 1, "credits": 5000, "Coprite Alloy": 20, "Charc Electroplax": 5}, "name": "Ekwana Ruhang", "component": "link", "damage": 14, "crit": -0.04, "speed": -4}

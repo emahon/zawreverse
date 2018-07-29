@@ -1,15 +1,1 @@
-{
-	"name":"Shtung",
-	"component":"grip",
-	"requirements": {
-		"credits":5000,
-		"Grokdrul":25,
-		"fish scales":55,
-		"Ferrite":850,
-		"Pyrotic Alloy":60,
-		"Shtung Blueprint":1
-	},
-	"damage":28,
-	"speed":0.783,
-	"type":"twohand"
-}
+{"requirements": {"Grokdrul": 25, "Pyrotic Alloy": 60, "Shtung Blueprint": 1, "credits": 5000, "Ferrite": 850, "fish scales": 55}, "name": "Shtung", "type": "twohand", "component": "grip", "damage": 28, "speed": 47}

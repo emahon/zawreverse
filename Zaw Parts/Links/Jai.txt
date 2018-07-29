@@ -1,16 +1,1 @@
-{
-	"name":"Jai",
-	"component":"link",
-	"requirements": {
-		"credits":5000,
-		"Nistlepod":10,
-		"Crondoc Wing":2,
-		"Khut-Khut Venom Sac":5,
-		"Pyrotic Alloy":20,
-		"Jai Blueprint":1
-	},
-	"damage":-4,
-	"speed":0.083,
-	"crit":0,
-	"status":0
-}
+{"status": 0, "requirements": {"Pyrotic Alloy": 20, "Nistlepod": 10, "Jai Blueprint": 1, "Crondoc Wing": 2, "credits": 5000, "Khut-Khut Venom Sac": 5}, "name": "Jai", "component": "link", "damage": -4, "crit": 0, "speed": 5}

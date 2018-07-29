@@ -1,16 +1,1 @@
-{
-	"name":"Ruhang",
-	"component":"link",
-	"requirements": {
-		"credits":5000,
-		"Nistlepod":10,
-		"Kuaka Spinal Claw":2,
-		"Mawfish Bones":5,
-		"Pyrotic Alloy":20,
-		"Ruhang Blueprint":1
-	},
-	"damage":14,
-	"speed":-0.067,
-	"crit":0,
-	"status":0
-}
+{"status": 0, "requirements": {"Pyrotic Alloy": 20, "Nistlepod": 10, "Ruhang Blueprint": 1, "Kuaka Spinal Claw": 2, "credits": 5000, "Mawfish Bones": 5}, "name": "Ruhang", "component": "link", "damage": 14, "crit": 0, "speed": -4}

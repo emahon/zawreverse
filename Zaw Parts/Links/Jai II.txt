@@ -1,16 +1,1 @@
-{
-	"name":"Jai II",
-	"component":"link",
-	"requirements": {
-		"credits":5000,
-		"Nistlepod":20,
-		"Crondoc Wing":2,
-		"Yogwun Stomach":5,
-		"Pyrotic Alloy":20,
-		"Jai II Blueprint":1
-	},
-	"damage":-8,
-	"speed":0.167,
-	"crit":0,
-	"status":0
-}
+{"status": 0, "requirements": {"Pyrotic Alloy": 20, "Nistlepod": 20, "Crondoc Wing": 2, "Yogwun Stomach": 5, "Jai II Blueprint": 1, "credits": 5000}, "name": "Jai II", "component": "link", "damage": -8, "crit": 0, "speed": 10}

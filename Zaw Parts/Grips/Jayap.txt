@@ -1,15 +1,1 @@
-{
-	"name":"Jayap",
-	"component":"grip",
-	"requirements": {
-		"credits":5000,
-		"Maprico":5,
-		"fish scales":70,
-		"Rubedo":600,
-		"fersteel Alloy":40,
-		"Jayap Blueprint":1
-	},
-	"damage":0,
-	"speed":0.917,
-	"type":"twohand"
-}
+{"requirements": {"Jayap Blueprint": 1, "Rubedo": 600, "fish scales": 70, "credits": 5000, "Maprico": 5, "fersteel Alloy": 40}, "name": "Jayap", "type": "twohand", "component": "grip", "damage": 0, "speed": 55}
