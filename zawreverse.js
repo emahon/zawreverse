@@ -131,29 +131,18 @@ $( document ).ready(function() {
         combs = data.split("', '");
         outstr = ""
         for (i in combs) {
-            outstr = outstr + combs[i] + "<br>";
+            processed = combs[i].replace('[','').replace("'",'').replace(']','');
+            outstr = outstr +"<button name='"+ processed+"'>"+processed + "</button><br>";
         }
         $( ".right" ).html(outstr);
     }
 
-    //link
-    comDamageRange.addEventListener('input', function(e) {
-        comDamageBox.value = e.target.value;
-        toCheck['comDamage'] = true;
-        query = buildQuery();
-        $.post(url,query, displayZaws);
-    });
+    //link box to range
     comDamageBox.addEventListener('input',function(e) {
         comDamageRange.value = e.target.value;
         toCheck['comDamage'] = true;
         query = buildQuery();
         $.post(url,query, displayZaws);
-    });
-    comAtkSpdRange.addEventListener('input', function(e) {
-        comAtkSpdBox.value = e.target.value;
-        toCheck['comAtkSpd'] = true;
-        query = buildQuery();
-        $.post(url, query, displayZaws);
     });
     comAtkSpdBox.addEventListener('input', function(e) {
         comAtkSpdRange.value = e.target.value;
@@ -161,21 +150,9 @@ $( document ).ready(function() {
         query = buildQuery();
         $.post(url, query, displayZaws);
     });
-    comStatChanceRange.addEventListener('input', function(e) {
-        comStatChanceBox.value = e.target.value;
-        toCheck['comStatChance'] = true;
-        query = buildQuery();
-        $.post(url, query, displayZaws);
-    });
     comStatChanceBox.addEventListener('input', function(e) {
         comStatChanceRange.value = e.target.value;
         toCheck['comStatChance'] = true;
-        query = buildQuery();
-        $.post(url, query, displayZaws);
-    });
-    comCritChanceRange.addEventListener('input', function(e) {
-        comCritChanceBox.value = e.target.value;
-        toCheck['comCritChance'] = true;
         query = buildQuery();
         $.post(url, query, displayZaws);
     });
@@ -186,8 +163,18 @@ $( document ).ready(function() {
         $.post(url, query, displayZaws);
     });
 
+    //function to process zaw data
+    function displayBuilding(data) {
+        $(".below").html(data);
+    }
 
-    //display possible combinations in right
-    console.log('hi');
+    //trigger data to be shown in bottom panel
+    $(document.body).on('click','button',function(e) {
+        console.log(e.target.name);
+        query = {"headers":"Access-Control-Allow-Origin",
+                 "zaw":e.target.name};
+        console.log(query);
+        $.post(url,query,displayBuilding);
+    });
 
 });

@@ -2,6 +2,7 @@
     position:absolute;
     left:0, right:50%;
     width: 50%;
+    height: 50%;
 }
 .right {
     position:absolute;
@@ -9,6 +10,10 @@
     width: 50%;
     height: 50%;
     overflow-y: auto;
+}
+.below {
+    position:absolute;
+    top: 50%;
 }
 .range {
     width: 15%;
