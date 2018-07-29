@@ -35,18 +35,68 @@ $( document ).ready(function() {
     for (i in spdmapalpha) {
         spdmap.push(spdmapalpha[i]/60.0);
     }
-    console.log(spdmap);
     var statmap = [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.25, 0.27, 0.29, 0.32, 0.34, 0.36]
     var critmap = [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.25, 0.27, 0.29, 0.32, 0.34, 0.36]
 
     //https://stackoverflow.com/questions/857075/jquery-ui-slider-fixed-values
     $( function() {
         $("#comDamageRange").slider({
-            
+            min: 1,
+            max: dammap.length - 1,
+            value: 0,
+            slide: function(event, ui) {
+                damval = dammap[ui.value];
+                $("#comDamageRange").val(damval);
+                comDamageBox.value = damval;
+                toCheck['comDamage'] = true;
+                query = buildQuery();
+                $.post(url,query, displayZaws);
+            }
         });
     });
     $( function() {
         $("#comAtkSpdRange").slider({
+            min: 1,
+            max: spdmap.length - 1,
+            value: 0,
+            slide: function(event, ui) {
+                spdval = spdmap[ui.value];
+                $("#comAtkSpdRange").val(spdval);
+                comAtkSpdBox.value = spdval;
+                toCheck['comAtkSpd'] = true;
+                query = buildQuery();
+                $.post(url,query, displayZaws);
+            }
+        });
+    });
+    $( function() {
+        $("#comStatChanceRange").slider({
+            min: 1,
+            max: statmap.length - 1,
+            value: 0,
+            slide: function(event, ui) {
+                statval = statmap[ui.value];
+                $("#comStatChanceRange").val(statval);
+                comStatChanceBox.value = statval;
+                toCheck['comStatChance'] = true;
+                query = buildQuery();
+                $.post(url,query, displayZaws);
+            }
+        });
+    });
+    $( function() {
+        $("#comCritChanceRange").slider({
+            min: 1,
+            max: critmap.length - 1,
+            value: 0,
+            slide: function(event, ui) {
+                critval = critmap[ui.value];
+                $("#comCritChanceRange").val(critval);
+                comCritChanceBox.value = critval;
+                toCheck['comCritChance'] = true;
+                query = buildQuery();
+                $.post(url,query, displayZaws);
+            }
         });
     });
 
@@ -67,6 +117,9 @@ $( document ).ready(function() {
             if (toCheck.hasOwnProperty(key)) {
                 if (toCheck[key]) {
                     query[key] = document.getElementById(key+"Range").value;
+                    if (key == 'comAtkSpd') {
+                        query[key] = query[key]*60; //attack speed accuracy hack
+                    }
                 }
             }
         }

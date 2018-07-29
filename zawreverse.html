@@ -1,10 +1,11 @@
 <head>
 <title>Reverse Zaw Builder</title>
 <link rel="stylesheet" type="text/css" href="mainstyle.css">
+<link rel="stylesheet" type="text/css" href="./jquery-ui-1.12.1.custom/jquery-ui.css">
 </head>
 <body>
 <script src="jquery.js"></script>
-<script src="/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="./jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 <script src="zawreverse.js"></script>
 <div class="left">
     <!--Strike is two weapon types, grip is either one or two handed. If grip is 1 handed, first type of strike-->
@@ -22,10 +23,10 @@
         <option value="Staff">Staff</option>
         <option value="Sword">Sword</option>
     </select><br>
-    Damage (Combined): <input type="range" id="comDamageRange" min=56 max=142> <input type="number" id="comDamageBox" min=56 max=142><br>
-    Attack Speed: <input type="range" id="comAtkSpdRange" min=.583 max=1.25 step=.001><input type="number" id="comAtkSpdBox" min=.583 max=1.25 step=.001><br>
-    Status Chance (%): <input type="range" id="comStatChanceRange" min=10 max=36><input type="number" id="comStatChanceBox" min=10 max=36><br>
-    Critical Chance (%): <input type="range" id="comCritChanceRange" min=10 max=36><input type="number" id="comCritChanceBox" min=10 max=36><br>
+    Damage (Combined): <div id="comDamageRange" class="range"></div><input type="number" id="comDamageBox" min=56 max=142><br>
+    Attack Speed: <div id="comAtkSpdRange" class="range"></div><input type="number" id="comAtkSpdBox" min=.583 max=1.25 step=.0000000000000001><br>
+    Status Chance (%): <div id="comStatChanceRange" class="range"></div><input type="number" id="comStatChanceBox" min=.1 max=.36 step=.0001><br>
+    Critical Chance (%): <div id="comCritChanceRange" class="range"></div><input type="number" id="comCritChanceBox" min=.10 max=.36 step=.0001><br>
     
 </div>
 <div class="right">
