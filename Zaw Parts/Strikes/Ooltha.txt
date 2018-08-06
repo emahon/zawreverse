@@ -4,7 +4,7 @@
 	"requirements": {
 		"credits":5000,
 		"Iradite":20,
-		"fish scales":25,
+		"Fish Scales":25,
 		"Tear Azurite":10,
 		"Pyrotic Alloy":60,
 		"Ooltha Blueprint":1

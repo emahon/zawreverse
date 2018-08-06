@@ -57,8 +57,27 @@ def zawreverse(environ, start_response):
 
         return [str(accept_comb).encode('utf-8')]
     else: #request for how to build weapon
-        print(o[b'zaw'])
-        return o[b'zaw']
+        parts = str(o[b'zaw'][0]).split('; ') #strike, grip, link
+        strike = parts[0][2:]
+        strikejson = json.loads(open("../Zaw Parts/Strikes/"+strike+".txt",'r').read())
+        requirements = strikejson['requirements']
+        grip = parts[1]
+        gripjson = json.loads(open("../Zaw Parts/Grips/"+grip+".txt",'r').read())
+        gripreqs = gripjson['requirements']
+        for key in gripreqs.keys():
+            if key in requirements.keys():
+                requirements[key] = requirements[key] + gripreqs[key]
+            else:
+                requirements[key] = gripreqs[key]
+        link = parts[2][:-1]
+        linkjson = json.loads(open("../Zaw Parts/Links/"+link+".txt",'r').read())
+        linkreqs = linkjson['requirements']
+        for key in linkreqs.keys():
+            if key in requirements.keys():
+                requirements[key] = requirements[key] + linkreqs[key]
+            else:
+                requirements[key] = linkreqs[key]
+        return [json.dumps(requirements).encode('utf-8')]
 
 httpd = make_server('',8000, zawreverse)
 print ("Serving on port 8000")

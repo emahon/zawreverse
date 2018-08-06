@@ -1,1 +1,1 @@
-{"requirements": {"Pyrotic Alloy": 60, "Rubedo": 650, "Korb Blueprint": 1, "credits": 5000, "fish scales": 55, "Iradite": 25}, "name": "Korb", "speed": 47, "component": "grip", "damage": 28, "type": "onehand"}
+{"requirements": {"Pyrotic Alloy": 60, "Rubedo": 650, "Korb Blueprint": 1, "credits": 5000, "Fish Scales": 55, "Iradite": 25}, "name": "Korb", "speed": 47, "component": "grip", "damage": 28, "type": "onehand"}

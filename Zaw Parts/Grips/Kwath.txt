@@ -1,1 +1,1 @@
-{"requirements": {"credits": 5000, "fish scales": 85, "Plastids": 700, "Kwath Blueprint": 1, "Cetus Wisp": 1, "Fersteel Alloy": 20}, "name": "Kwath", "type": "onehand", "component": "grip", "damage": 14, "speed": 51}
+{"requirements": {"credits": 5000, "Fish Scales": 85, "Plastids": 700, "Kwath Blueprint": 1, "Cetus Wisp": 1, "Fersteel Alloy": 20}, "name": "Kwath", "type": "onehand", "component": "grip", "damage": 14, "speed": 51}

@@ -1,1 +1,1 @@
-{"requirements": {"Pyrotic Alloy": 60, "Iradite": 20, "Peye Blueprint": 1, "credits": 5000, "fish scales": 30, "Alloy Plate": 850}, "name": "Peye", "speed": 60, "component": "grip", "damage": -4, "type": "onehand"}
+{"requirements": {"Pyrotic Alloy": 60, "Iradite": 20, "Peye Blueprint": 1, "credits": 5000, "Fish Scales": 30, "Alloy Plate": 850}, "name": "Peye", "speed": 60, "component": "grip", "damage": -4, "type": "onehand"}
